@@ -8,13 +8,12 @@ The code contains:
 
   * `src` contains all the C++ source files
   * `include` contains some dependencies (mainly the blackbox solver and the plotting libraries)
-  * `cmake` contains files that contains the path of some solvers
 
 
 Installation
 ------------
 
-A executable is already compiled (Linux). To recompile the source code, Cmake is recommended since we
+To compile the source code, Cmake is recommended since we
 provide a `CMakeLists.txt` file along with a bash script to facilitate the job.
 
 ### Dependencies: ###
@@ -27,8 +26,8 @@ Config and Data
 ------------
 
 The code contains a config.ini file and the option can be modified directly using this file.
-In particular, it contains the path to the data file. Example of data (used in the article [[1]](#1) )
-are already provided.
+In particular, it contains the path to the data file. Examples of data (used in the article [[1]](#1) )
+are also provided.
 
 
 ## References
